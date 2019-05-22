@@ -1,0 +1,6 @@
+<h4>List of persons</h4>
+<ul class="people">
+    <li *ngFor="let person of people" >
+        <span class="badge">{{person.id}}</span>{{person.surname}} {{person.name}} : {{person.mail}}  
+    </li>
+</ul>
