@@ -1,6 +1,29 @@
 <h4>List of persons</h4>
+<div>
+    <label>Name:<input #personName /></label>
+    <label>Surname:<input #personSurname /></label>
+    <label>Mail:<input #personMail /></label>
+    <button (click)="add(personName.value, personSurname.value, personMail.value); 
+        personName.value=''; personSurname.value=''; personMail.value='';">
+      add
+    </button>
+</div>
+
+
 <ul class="people">
-    <li *ngFor="let person of people" >
+    <li *ngFor="let person of people"
+        [class.selected]="person === selectedPerson"
+        (click)="onSelect(person)">
         <span class="badge">{{person.id}}</span>{{person.surname}} {{person.name}} : {{person.mail}}  
+        <button class="delete" title="delete person"
+        (click)="delete(person)">x</button>
     </li>
 </ul>
+
+<div *ngIf="selectedPerson" class="people">
+        Modify : <br/><br/>
+        <input [(ngModel)]="selectedPerson.name"/>
+        <input [(ngModel)]="selectedPerson.surname"/>
+        <input [(ngModel)]="selectedPerson.mail"/> 
+        <button (click)="save()">Save</button>
+</div> 
