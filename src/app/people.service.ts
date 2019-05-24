@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { Person } from './person';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
-import { catchError, map, tap } from 'rxjs/operators';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
@@ -28,7 +27,7 @@ export class PeopleService {
 
   updatePerson(person:Person): Observable<any>{
     const url = `${this.apiUrl + this.endPoint}/${person.id}`;
-    return this.http.put(url, person, httpOptions)
+    return this.http.put(url, person, httpOptions);
   }
 
   deletePerson(personID: number){

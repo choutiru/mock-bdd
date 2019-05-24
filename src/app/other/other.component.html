@@ -1,0 +1,30 @@
+<h4>List of others</h4>
+<div>
+    <label>Name:<input #otherName /></label>
+    <label>Surname:<input #otherSurname /></label>
+    <label>Mail:<input #otherMail /></label>
+    <button (click)="add(otherName.value, otherSurname.value, otherMail.value); 
+      otherName.value=''; otherSurname.value=''; otherMail.value='';">
+      add
+    </button>
+</div>
+
+
+<ul class="people">
+    <li *ngFor="let person of other"
+        [class.selected]="person === selectedOther"
+        (click)="onSelect(person)">
+        <span class="badge">{{person.id}}</span>{{person.surname}} {{person.name}} : {{person.mail}}  
+        <button class="delete" title="delete person"
+        (click)="delete(person)">x</button>
+    </li>
+</ul>
+
+<div *ngIf="selectedOther" class="people">
+        Modify : <br/><br/>
+        <input [(ngModel)]="selectedOther.name"/>
+        <input [(ngModel)]="selectedOther.surname"/>
+        <input [(ngModel)]="selectedOther.mail"/> 
+        <button (click)="save('people')">SaveOther</button>
+</div> 
+

@@ -14,7 +14,8 @@ export class PeopleComponent implements OnInit {
   selectedPerson: Person;
 
   
-  constructor(private peopleService: PeopleService) { }
+  constructor(
+    private peopleService: PeopleService) { }
 
   ngOnInit() {
    this.setPeopleServer();
@@ -37,7 +38,7 @@ export class PeopleComponent implements OnInit {
     this.selectedPerson = person;
   }
 
-  save(): void{
+  save(service:string): void{
     this.peopleService.updatePerson(this.selectedPerson).subscribe();
   }
 
