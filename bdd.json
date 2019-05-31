@@ -1,0 +1,492 @@
+{
+  "marketconf": [
+    {
+      "id": 0,
+      "partnerID": 0,
+      "market": "Australie",
+      "language": "EN",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 1,
+      "partnerID": 0,
+      "market": "Australie",
+      "language": "EN",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "partnerID": 0,
+      "market": "Australie",
+      "language": "FR",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "partnerID": 0,
+      "market": "Australie",
+      "language": "FR",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "partnerID": 0,
+      "market": "China",
+      "language": "EN",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "partnerID": 0,
+      "market": "China",
+      "language": "EN",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "partnerID": 0,
+      "market": "China",
+      "language": "EN",
+      "brand": "PL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "partnerID": 0,
+      "market": "China",
+      "language": "FR",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "partnerID": 0,
+      "market": "China",
+      "language": "FR",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 9,
+      "partnerID": 0,
+      "market": "China",
+      "language": "FR",
+      "brand": "PL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 10,
+      "partnerID": 0,
+      "market": "China",
+      "language": "MA",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 11,
+      "partnerID": 0,
+      "market": "China",
+      "language": "MA",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 12,
+      "partnerID": 0,
+      "market": "China",
+      "language": "MA",
+      "brand": "PL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 13,
+      "partnerID": 0,
+      "market": "China",
+      "language": "CA",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 14,
+      "partnerID": 0,
+      "market": "China",
+      "language": "CA",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 15,
+      "partnerID": 0,
+      "market": "China",
+      "language": "CA",
+      "brand": "PL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 16,
+      "partnerID": 0,
+      "market": "Korea",
+      "language": "EN",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 17,
+      "partnerID": 0,
+      "market": "Korea",
+      "language": "EN",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 18,
+      "partnerID": 0,
+      "market": "Korea",
+      "language": "FR",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 19,
+      "partnerID": 0,
+      "market": "Korea",
+      "language": "FR",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 20,
+      "partnerID": 0,
+      "market": "Korea",
+      "language": "KR",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 21,
+      "partnerID": 0,
+      "market": "Korea",
+      "language": "KR",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 22,
+      "partnerID": 0,
+      "market": "Indonesia",
+      "language": "EN",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 23,
+      "partnerID": 0,
+      "market": "Indonesia",
+      "language": "EN",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 24,
+      "partnerID": 0,
+      "market": "Indonesia",
+      "language": "FR",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 25,
+      "partnerID": 0,
+      "market": "Indonesia",
+      "language": "FR",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 26,
+      "partnerID": 0,
+      "market": "Indonesia",
+      "language": "ID",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 27,
+      "partnerID": 0,
+      "market": "Indonesia",
+      "language": "ID",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 28,
+      "partnerID": 0,
+      "market": "Japan",
+      "language": "EN",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 29,
+      "partnerID": 0,
+      "market": "Japan",
+      "language": "EN",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 30,
+      "partnerID": 0,
+      "market": "Japan",
+      "language": "FR",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 31,
+      "partnerID": 0,
+      "market": "Japan",
+      "language": "FR",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 32,
+      "partnerID": 0,
+      "market": "Japan",
+      "language": "JP",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 33,
+      "partnerID": 0,
+      "market": "Japan",
+      "language": "JP",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 34,
+      "partnerID": 0,
+      "market": "Malaysia",
+      "language": "EN",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 35,
+      "partnerID": 0,
+      "market": "Malaysia",
+      "language": "EN",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 36,
+      "partnerID": 0,
+      "market": "Malaysia",
+      "language": "FR",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 37,
+      "partnerID": 0,
+      "market": "Malaysia",
+      "language": "FR",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 38,
+      "partnerID": 0,
+      "market": "Malaysia",
+      "language": "MY",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 39,
+      "partnerID": 0,
+      "market": "Malaysia",
+      "language": "MY",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 40,
+      "partnerID": 0,
+      "market": "New Caledonia",
+      "language": "EN",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 41,
+      "partnerID": 0,
+      "market": "New Caledonia",
+      "language": "FR",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 42,
+      "partnerID": 0,
+      "market": "Singapour",
+      "language": "EN",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 43,
+      "partnerID": 0,
+      "market": "Singapour",
+      "language": "EN",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 44,
+      "partnerID": 0,
+      "market": "Singapour",
+      "language": "FR",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 45,
+      "partnerID": 0,
+      "market": "Singapour",
+      "language": "FR",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 46,
+      "partnerID": 0,
+      "market": "Thailande",
+      "language": "EN",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 47,
+      "partnerID": 0,
+      "market": "Thailande",
+      "language": "EN",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 48,
+      "partnerID": 0,
+      "market": "Thailande",
+      "language": "FR",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 48,
+      "partnerID": 0,
+      "market": "Thailande",
+      "language": "FR",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 49,
+      "partnerID": 0,
+      "market": "Thailande",
+      "language": "TH",
+      "brand": "AF",
+      "sites": "IAS MNL",
+      "isActive": true
+    },
+    {
+      "id": 50,
+      "partnerID": 0,
+      "market": "Thailande",
+      "language": "TH",
+      "brand": "KL",
+      "sites": "IAS MNL",
+      "isActive": true
+    }
+  ],
+  "partners": [
+    {
+      "id": 0,
+      "name": "IAS"
+    }
+  ],
+  "filters": [
+    {
+      "id": 0,
+      "marketConfigurationID": [
+        {
+          "id": 0
+        },
+        {
+          "id": 2
+        }
+      ],
+      "description": "Update"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<h4>Filters </h4>
+<div *ngIf="filters" class="people">
+        <ul class="people">
+                <li *ngFor="let filter of filters">
+                    <span class="badge">{{filter.id}}</span> MarketConfId: <span *ngFor="let marketConfID of filter.marketConfigurationID" > {{marketConfID.id}}, </span> Description: {{filter.description}}
+        </ul>
+</div>

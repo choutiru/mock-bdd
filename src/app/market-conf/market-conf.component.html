@@ -1,0 +1,64 @@
+<h4>Pre filter</h4>
+<div *ngIf="preFilteredMarket" class="people">
+        <ul class="people">
+                <li *ngFor="let market of preFilteredMarket">
+                <span class="badge">{{market.id}}</span> Market:{{market.market}}&nbsp;&nbsp;&nbsp; Lang:{{market.language}}&nbsp;&nbsp;&nbsp;Brand: {{market.brand}}&nbsp;&nbsp;&nbsp; Sites: {{market.sites}}
+        </ul>
+</div>
+
+
+
+<div *ngIf="selectedMarket" class="people">
+        Modify : <br/><br/>
+        <input [(ngModel)]="selectedMarket.id"/>
+        <input [(ngModel)]="selectedMarket.market"/>
+        <input [(ngModel)]="selectedMarket.language"/> 
+        <input [(ngModel)]="selectedMarket.brand"/> 
+        <input [(ngModel)]="selectedMarket.sites"/> 
+        <input [(ngModel)]="selectedMarket.isActive"/> 
+        <button (click)="save()">SaveMarket</button>
+</div> 
+
+<h4>List of partners</h4>
+<div *ngIf="partnerConfs" class="people">
+        <ul class="people">
+                <li *ngFor="let partner of partnerConfs"
+                [class.selected]="partner === selectedPartner"
+                (click)="infos(partner)">
+                <span class="badge">{{partner.id}}</span> Partner:{{partner.name}}
+        </ul>
+</div>
+
+<div *ngIf="selectedPartner" class="people">
+<h4>Partner chaos informations </h4>
+        <div *ngIf="marketConfs" class="people">
+                <ul class="people">
+                        <li *ngFor="let market of marketConfs"
+                                [class.selected]="market === selectedMarket"
+                                (click)="onSelect(market)">
+                        <span class="badge">{{market.id}}</span> Market:{{market.market}}&nbsp;&nbsp;&nbsp; Lang:{{market.language}}&nbsp;&nbsp;&nbsp;Brand: {{market.brand}}&nbsp;&nbsp;&nbsp; Sites: {{market.sites}}
+                        <button class="delete" title="add to filter"
+                                (click)="activate(market)">+</button>
+                        </li>
+                </ul>
+        </div>
+</div> 
+
+
+
+
+
+
+
+<div *ngIf="marketConfs12" class="people">
+                <h4>List of market-conf</h4>
+                <ul class="people">
+                        <li *ngFor="let market of marketConfs"
+                                [class.selected]="market === selectedMarket"
+                                (click)="onSelect(market)">
+                        <span class="badge">{{market.id}}</span> Market:{{market.market}}&nbsp;&nbsp;&nbsp; Lang:{{market.language}}&nbsp;&nbsp;&nbsp;Brand: {{market.brand}}&nbsp;&nbsp;&nbsp; Sites: {{market.sites}}
+                        <button class="delete" title="delete person"
+                                (click)="delete(person)">x</button>
+                        </li>
+                </ul>
+        </div>
